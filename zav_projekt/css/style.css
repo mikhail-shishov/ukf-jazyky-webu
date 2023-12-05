@@ -359,6 +359,7 @@ iframe {
 }
 
 .contact-sect {
+  background-color: var(--black);
   background-image: url(../img/pexels-philippe-donn-1169754.jpg);
   background-position: center;
   background-repeat: no-repeat;

@@ -1,14 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
   // hamburger
-  var hamburger = document.querySelector('.burger');
-
+  let hamburger = document.querySelector('.burger');
   hamburger.addEventListener('click', function (e) {
     e.preventDefault();
     this.classList.toggle('is-open');
   });
 
   // simple lightbox
-  var lightbox = new SimpleLightbox('.lightbox', {});
+  let lightbox = new SimpleLightbox('.lightbox', {});
 
   // accordion
   accordion = document.querySelectorAll('.accordion-block');
@@ -85,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
       return false;
     } else if (document.getElementById('checkbox').checked == false) {
       e.preventDefault();
-      alert('Doktor vie všetko, včetne GDPR.');
+      alert('Doktor vie všetko, včetne o GDPR.');
       return false;
     }
   });
